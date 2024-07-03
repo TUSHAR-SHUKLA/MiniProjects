@@ -25,25 +25,3 @@ export const cartReducer = cartSlice.reducer
 
 
 
-
-// import {createSlice} from '@reduxjs/toolkit'
-
-// const cartslice = createSlice({
-//     name: "cart",
-//     initialState:{
-//         cartList:[],
-//         total:0
-//     },
-//     reducers:{
-//         add(state, action){
-//             // const updatedCartList = state.cartList.concat(action.payload);
-//             // return {...state, cartList:updatedCartList}
-//         },
-//         remove(){
-           
-//         }
-//     }
-// });
-
-// export const {add, remove} = cartslice.actions;
-// export const cartReducer = cartslice.reducer;
